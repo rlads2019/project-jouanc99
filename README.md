@@ -14,7 +14,7 @@
     - 檔名：`G06_report`
     - 格式：`.pdf`
     - 請將此檔案放在此 repo 根目錄
-    - [G06_report.pdf](https://rlads2019.github.io/project-jouanc99/G06_G06_report.pdf)
+    - [G06_report.pdf](https://rlads2019.github.io/project-jouanc99/G06_report.pdf)
 - [x] 海報
     - 檔名：`G06_poster.pdf`
     - 格式：`.pdf`
