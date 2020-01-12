@@ -1,6 +1,7 @@
 # 原始碼說明文件
 
 ## 爬中國外交部
+### 中國外交部.r
 ```{r}
 url <- vector("character", 66) #空向量
 text_ans <- c("")
@@ -21,7 +22,7 @@ for (i in 1:66) {
     } else {
         righthref <- onehref[grepl("耿爽", onetitle)] #有耿爽的標題
         onep_length <- length(righthref) #一頁符合個數
-        href_go <- substring(righthref, 3, 16) #把href切掉./ 好像是固定長度
+        href_go <- substring(righthref, 3, 16) #把href切掉./ 固定長度
         href_vec <- vector("character", onep_length) #空向量
         desired_length <- 10
         text_list <- vector(mode = "list", length = desired_length)
@@ -56,7 +57,10 @@ write.table(text_ans, file = "C:/Users/Jouan/Desktop/R.txt", sep = " ", quote = 
 #str_trim刪除前後空白
 #grep傳回位置,grepl單純boolean
 ```
+之後手動去除txt檔的「答：」及「記者問」、「中國外交部日程說明」
+
 ## 爬臺灣外交部
+### mofa_text.r
 ```{r}
 remDr <- remoteDriver(remoteServerAddr = "localhost", port = 4445L, browserName = "chrome")
 
