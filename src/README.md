@@ -13,6 +13,7 @@
 ## 斷詞、文字雲
 ### [wordscloud.Rmd](https://rlads2019.github.io/project-jouanc99/src/wordscloud.Rmd)
 包含所有中國外交部及臺灣外交部的資料。
+[wordscloud.html](https://rlads2019.github.io/project-jouanc99/src/wordscloud.html)
 
 ## keyword、stopword
 ### [keywords.txt](https://rlads2019.github.io/project-jouanc99/src/keywords.txt)/ [keywordsm.txt](https://rlads2019.github.io/project-jouanc99/src/keywordsm.txt)、[stopwords.txt](https://rlads2019.github.io/project-jouanc99/src/stopwords.txt)/ [stopwordsm.txt](https://rlads2019.github.io/project-jouanc99/src/stopwordsm.txt)
