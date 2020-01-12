@@ -58,7 +58,6 @@ write.table(text_ans, file = "C:/Users/Jouan/Desktop/R.txt", sep = " ", quote = 
 ```
 ## 爬臺灣外交部
 ```{r}
-library(RSelenium)
 remDr <- remoteDriver(remoteServerAddr = "localhost", port = 4445L, browserName = "chrome")
 
 # test
