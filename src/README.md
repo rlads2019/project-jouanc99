@@ -1,7 +1,7 @@
 # 原始碼說明文件
 
 ## 爬中國外交部
-### 中國外交部.r
+### [中國外交部.R](https://rlads2019.github.io/project-jouanc99/src/%E4%B8%AD%E5%9C%8B%E5%A4%96%E4%BA%A4%E9%83%A8.R)
 一開始先爬15頁產出[GS15.txt](https://rlads2019.github.io/project-jouanc99/src/GS15.txt)，再完整爬全部66頁[GS66.txt](https://rlads2019.github.io/project-jouanc99/src/GS66.txt)後，手動切為三份比較時期，分別為「[1500to3000.txt](https://rlads2019.github.io/project-jouanc99/src/1500to3000.txt)」、「[3001to4500.txt](https://rlads2019.github.io/project-jouanc99/src/3001to4500.txt)」、「[4500to6757.txt](https://rlads2019.github.io/project-jouanc99/src/4500to6757.txt)」，加上原本[GS15.txt](https://rlads2019.github.io/project-jouanc99/src/GS15.txt)時期去比較。
 之後手動去除txt檔的「答：」及「記者問」、「中國外交部日程說明」。
 
