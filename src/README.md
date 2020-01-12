@@ -89,6 +89,7 @@ for (i in 1:length(links)){
 }
 ```
 ## 匯入及製作1-1500行資料的df
+### wordscloud.Rmd
 ```{r}
 fps1 <- list.files("GS66/15", full.names = T)
 # Initialize jiebaR and the dictionary
